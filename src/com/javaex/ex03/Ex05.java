@@ -15,7 +15,7 @@ public class Ex05 {
 		
 		
 		if(time>8) {
-			pay = (int) ((time-8)*(unit*1.5)+8*unit);
+			pay = (time-8)*((int)(unit*1.5))+8*unit;
 			
 		}else {
 			pay = time*unit;
