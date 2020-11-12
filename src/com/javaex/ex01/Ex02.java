@@ -52,7 +52,7 @@ public class Ex02 {
 		
 		//변수선언+값대입
 		//v01 = 3;  -->기존 v01 값을 변경
-		//int v01 = 3 --> 변수명 v01이 2개가 되서 오류
+		//int v01 = 3 --> 변수명 v01 중복 오류
 		/*
 		int v04 = 3;
 		int v05 = 4;
@@ -64,7 +64,6 @@ public class Ex02 {
 		System.out.println(v05);
 		System.out.println(v06);
 		
-		//짜증안..ㅇ날ㅇ리
 		
 		
 		

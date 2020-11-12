@@ -11,14 +11,14 @@ public class Ex05 {
 		System.out.println(result01);
 		
 		//pi값을 변경하는 경우
-		//pi = 3.141519;  //상수로 정의되면 오류발생
+		//pi = 3.141519;  //상수로 정의하면 오류발생
 		double result02 = pi*5*5;
 		System.out.println(result02);
 		
 		System.out.println(pi);
 		
 		
-		//상수정의 --> 보통 대문자로 표기
+		//상수정의 --> (암묵적인 룰)보통 대문자로 표기
 		final double PI = 3.14;
 		
 		double result03 = PI*5*5;
